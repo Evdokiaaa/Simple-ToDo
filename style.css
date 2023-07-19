@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2c2c2c;
+  color: #fff;
+}
+img {
+  user-select: none;
+}
+.container {
+  max-width: 720px;
+  margin: 10% auto;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: center;
+}
+.header__title {
+  font-size: 64px;
+}
+.header__line-left {
+  border-bottom: 3px solid #fff;
+  margin-right: 24px;
+  width: 50px;
+  height: 2px;
+  align-self: center;
+}
+.header__line-right {
+  border-bottom: 3px solid #fff;
+  margin-left: 24px;
+  width: 50px;
+  height: 2px;
+  align-self: center;
+}
+.header__underline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.header__underline-left {
+  border-bottom: 3px solid #fff;
+  margin-right: 32px;
+  width: 240px;
+  height: 2px;
+  align-self: center;
+}
+.header__underline-right {
+  border-bottom: 3px solid #fff;
+  margin-left: 32px;
+  width: 240px;
+  height: 2px;
+  align-self: center;
+}
+
+.input-form {
+  padding-top: 80px;
+}
+.input-form__container {
+  display: flex;
+  justify-content: center;
+}
+.input-form__input {
+  width: 100%;
+  border-radius: 20px;
+  background: #d9d9d9;
+  outline: none;
+  border: none;
+  padding-left: 20px;
+  font-size: 20px;
+}
+.input-form__btn {
+  border-radius: 20px;
+  background: #4f4f4f;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 7px 17px;
+  margin-left: -60px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.todos {
+  margin-top: 82px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222222;
+  margin-top: 35px;
+}
+.todo__text {
+  font-size: 20px;
+  margin-left: 20px;
+}
+.todo__btn {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
